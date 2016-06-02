@@ -30,7 +30,7 @@ def splitByArtist():
     os.mkdir('../data/artist')
     f = open('../data/mars_tianchi_songs.csv')
     rows = csv.reader(f)
-    rows.next()
+    #rows.next()
     for row in rows:
         #print row
         artist = row[1]

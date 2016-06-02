@@ -1,4 +1,4 @@
-
+#coding=utf-8
 import csv
 import os
 import shutil
@@ -30,7 +30,7 @@ def splitBySongs():
     os.mkdir('../data/song')
     f = open('../data/mars_tianchi_user_actions.csv')
     rows = csv.reader(f)
-    rows.next()
+    #rows.next()
     for row in rows:
         song = row[1]
         del row[1]
