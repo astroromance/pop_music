@@ -28,7 +28,6 @@ def calcArtistPlays():
         artistFileList = os.listdir('../data/artist')
         for artistFile in artistFileList:
             artist_id = artistFile[0:-4]
-            print artist_id
             date_dictionary = {}
             f1 = open('../data/artist/'+artistFile)
             rows1 = csv.reader(f1)

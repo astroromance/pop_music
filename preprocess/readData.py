@@ -11,7 +11,7 @@ if __name__ == "__main__":
     splitByArtist()
     t1 = time.time()
     print "cost %f s, split by artist" %(t1-t0)
-    #splitBySongs()
+    splitBySongs()
     t2 = time.time()
     print "cost %f s, split by songs" %(t2-t1)
     calcArtistPlays()

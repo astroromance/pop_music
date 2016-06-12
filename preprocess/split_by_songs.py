@@ -28,7 +28,7 @@ def splitBySongs():
     if os.path.exists('../data/song'):
         shutil.rmtree('../data/song')
     os.mkdir('../data/song')
-    f = open('../data/mars_tianchi_user_actions.csv')
+    f = open('../data/p2_mars_tianchi_user_actions.csv')
     rows = csv.reader(f)
     #rows.next()
     for row in rows:

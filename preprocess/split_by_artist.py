@@ -28,7 +28,7 @@ def splitByArtist():
     if os.path.exists('../data/artist'):
         shutil.rmtree('../data/artist')
     os.mkdir('../data/artist')
-    f = open('../data/mars_tianchi_songs.csv')
+    f = open('../data/p2_mars_tianchi_songs.csv')
     rows = csv.reader(f)
     #rows.next()
     for row in rows:
